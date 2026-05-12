@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="R5-dqhijEnCsvJrIn1d_ExgoaohgLCG6ED0o8ac7ShA" />
+    <meta name="google-site-verification" content="R5-dqhijEnCsvJrIn1d_ExgoaohgLCG6ED0o8ac7ShA" />
+    <title>Formation Micro-Importation Algérie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': {
+                'DEFAULT': '#1D4ED8', // blue-700
+                'light': '#3B82F6', // blue-500
+                'dark': '#1E3A8A', // blue-900
+              },
+              'secondary': {
+                'DEFAULT': '#F97316', // orange-500
+                'light': '#FB923C', // orange-400
+                'dark': '#EA580C', // orange-600
+              },
+              'success': '#16A34A', // green-600
+              'neutral': {
+                50: '#F8FAFC',
+                100: '#F1F5F9',
+                200: '#E2E8F0',
+                300: '#CBD5E1',
+                400: '#94A3B8',
+                500: '#64748B',
+                600: '#475569',
+                700: '#334155',
+                800: '#1E293B',
+                900: '#0F172A',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              arabic: ['Tajawal', 'sans-serif'],
+            },
+            keyframes: {
+              'fade-in': {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              'slide-up': {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+            },
+            animation: {
+              'fade-in': 'fade-in 0.3s ease-out forwards',
+              'slide-up': 'slide-up 0.4s ease-out forwards',
+            }
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #F1F5F9; /* neutral-100 */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .font-arabic {
+        font-family: 'Tajawal', sans-serif;
+      }
+      .custom-scroll::-webkit-scrollbar { width: 8px; }
+      .custom-scroll::-webkit-scrollbar-thumb { background-color: #94A3B8; border-radius: 4px; }
+      .custom-scroll::-webkit-scrollbar-track { background-color: #E2E8F0; }
+      @media print {
+        .no-print {
+          display: none !important;
+        }
+        body * {
+          visibility: hidden;
+        }
+        .printable-area, .printable-area * {
+          visibility: visible;
+        }
+        .printable-area {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          padding: 2rem;
+          font-size: 12pt;
+          color: #000;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
